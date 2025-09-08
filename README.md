@@ -16,4 +16,4 @@ A modern and responsive website for the Best Physiotherapy Clinic and Arogya Phy
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/physiotherapy.git](https://github.com/your-username/physiotherapy.git)
+   git clone [https://github.com/herp2021/physiotherapy.git](https://github.com/your-username/physiotherapy.git)
