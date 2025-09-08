@@ -33,9 +33,12 @@ const App = () => {
             <PhotoGallery />
 
             <main className="container mx-auto px-4 py-8 md:py-16 flex-grow">
-                {clinics.map((clinic, index) => (
-                    <ClinicCard key={index} clinic={clinic} />
-                ))}
+                <h2 className="text-3xl md:text-4xl font-semibold text-center text-gray-900 mb-12">Our Clinics</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {clinics.map((clinic, index) => (
+                        <ClinicCard key={index} clinic={clinic} />
+                    ))}
+                </div>
             </main>
 
             {/* Google Reviews Section */}
