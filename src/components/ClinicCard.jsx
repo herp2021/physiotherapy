@@ -2,7 +2,7 @@ import React from 'react';
 
 // Reusable component for displaying a single clinic's information.
 const ClinicCard = ({ clinic }) => (
-    <section className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 p-6 md:p-10 mb-8">
+    <section className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 p-6 md:p-10">
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 border-b-2 border-blue-500 pb-3 mb-6">
             {clinic.name}
         </h2>
