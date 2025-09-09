@@ -13,6 +13,7 @@ const clinics = [
     openingHours: 'Monday - Saturday: 4:00 PM - 8:00 PM',
     phone: '+917797743478',
     mapLink: 'https://share.google/I6S7izRXb4lT9wOfU',
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.960995600419!2d88.2088563!3d22.392827800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026318a55424d9%3A0x1e092f2add95baa8!2zQmVzdCBQaHlzaW90aGVyYXB5IENsaW5pYy_gprjgp4fgprDgpr4g4Kar4Ka_4Kac4Ka_4KaT4Kal4KeH4Kaw4Ka-4Kaq4Ka_IOCmleCnjeCmsuCmv-CmqOCmv-CmlQ!5e0!3m2!1sen!2sin!4v1757419544135!5m2!1sen!2sin",
     photos: [
       'https://placehold.co/600x400/29B961/white?text=Physiotherapy+session',
       'https://placehold.co/600x400/29B961/white?text=Rehabilitation+exercises',
@@ -26,6 +27,7 @@ const clinics = [
     openingHours: 'Monday - Saturday: 4:00 PM - 8:00 PM',
     phone: '+917797743478',
     mapLink: 'https://share.google/Ing1UEaInxUwdE1iQ',
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.629215821806!2d88.2788348!3d23.0740514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8f36306cdb84d%3A0x6f6596a9606fc2d0!2zQXJvZ3lhIFBoeXNpb3RoZXJhcHkgY2xpbmljL-CmhuCmsOCni-Cml-CnjeCmryDgpqvgpr_gppzgpr_gppPgpqXgp4fgprDgpr7gpqrgpr8g4KaV4KeN4Kay4Ka_4Kao4Ka_4KaV!5e0!3m2!1sen!2sin!4v1757419585755!5m2!1sen!2sin",
     photos: [
       'https://placehold.co/600x400/29B961/white?text=Physiotherapy+session',
       'https://placehold.co/600x400/29B961/white?text=Rehabilitation+exercises',
@@ -44,7 +46,7 @@ const reviews = [
   {
     author: 'Uday Pal',
     rating: 5,
-    comment: 'I have been in serious  back  pain problem in the year 2019 due to an accident and it is said by most to go for surgery. But, meeting with Dr. Dibyendu Das is a blessing to me. His encouragement and assistance help me to recover gradually. Really, great assistance from a great physiotherapist. Now, I am leading  normal everday life which is painfree but not assistance  free. Thanks to Dr Dibyendu Das.',
+    comment: 'I have been in serious  back  pain problem in the year 2019 due to an accident and it is said by most to go for surgery. But, meeting with Dr. Dibyendu Das is a blessing to me. His encouragement and assistance help me to recover gradually. Really, great assistance from a great physiotherapist. Now, I am leading  normal everday life which is painfree but not assistance  free. Thanks to Dr Dibyendu Das.',
   },
   {
     author: 'Debi Raha',
@@ -110,6 +112,22 @@ const ClinicCard = ({ clinic }) => (
         </a>
       </div>
     </div>
+    {/* Embedded Map Section */}
+    {clinic.mapEmbed && (
+      <div className="w-full md:w-1/2 mt-8 md:mt-0">
+        <iframe
+          title={`${clinic.name} Location`}
+          src={clinic.mapEmbed}
+          width="100%"
+          height="300"
+          style={{ border: 0, borderRadius: '1rem' }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="shadow-lg"
+        ></iframe>
+      </div>
+    )}
   </div>
 );
 
