@@ -12,7 +12,7 @@ const clinics = [
     address: 'Thakurpukur - Birbhat - Bakrahat - Raipur Rd, Bakrahat, West Bengal 743377, India',
     openingHours: 'Monday - Saturday: 4:00 PM - 8:00 PM',
     phone: '+917797743478',
-    mapLink: 'https://maps.app.goo.gl/uP4V226kXb6zN8mE7',
+    mapLink: 'https://share.google/I6S7izRXb4lT9wOfU',
     photos: [
       'https://placehold.co/600x400/29B961/white?text=Physiotherapy+session',
       'https://placehold.co/600x400/29B961/white?text=Rehabilitation+exercises',
@@ -25,7 +25,7 @@ const clinics = [
     address: 'Thakurpukur - Birbhat - Bakrahat - Raipur Rd, Bakrahat, West Bengal 743377, India',
     openingHours: 'Monday - Saturday: 4:00 PM - 8:00 PM',
     phone: '+917797743478',
-    mapLink: 'https://maps.app.goo.gl/uP4V226kXb6zN8mE7',
+    mapLink: 'https://share.google/Ing1UEaInxUwdE1iQ',
     photos: [
       'https://placehold.co/600x400/29B961/white?text=Physiotherapy+session',
       'https://placehold.co/600x400/29B961/white?text=Rehabilitation+exercises',
@@ -37,19 +37,19 @@ const clinics = [
 // Review Data
 const reviews = [
   {
-    author: 'Sudipta Ghosh',
+    author: 'Ayan Chatterjee',
     rating: 5,
-    comment: 'One of the finest rehabilitation centres. The doctor has a sound knowledge of the subjects and is very friendly. Highly recommended.',
+    comment: 'A great physiotherapists I ever seen, I do knee ACL Surgery and doctor prescrib to me a good physiotherapist and I meet this very good person and he recover me very fast. I recommend to everyone meet this person and solve your problem very fast and secure.',
   },
   {
-    author: 'Maitreyee Mukherjee',
+    author: 'Uday Pal',
     rating: 5,
-    comment: 'Dr. Debasish Saha is a very well-qualified and efficient physiotherapist. He is also a very compassionate and friendly human being. His diagnosis is superb, and he is a very kind person. Highly recommended.',
+    comment: 'I have been in serious  back  pain problem in the year 2019 due to an accident and it is said by most to go for surgery. But, meeting with Dr. Dibyendu Das is a blessing to me. His encouragement and assistance help me to recover gradually. Really, great assistance from a great physiotherapist. Now, I am leading  normal everday life which is painfree but not assistance  free. Thanks to Dr Dibyendu Das.',
   },
   {
-    author: 'Debasish Dey',
+    author: 'Debi Raha',
     rating: 5,
-    comment: 'One of the best physiotherapy clinics in Kolkata. Dr. Debasish Saha is a very polite and friendly person. The treatment I got was excellent, and the charges were very reasonable. I am fully recovered now. I highly recommend this clinic.',
+    comment: 'Ami Debjani Raha amar soldar lock hyechilo ai sir amar hath akdam thik kre diyece ar 1year por amar brain stock hoi amar chokh puro tera hoye jai ai sir kno charj charai sudhu vidio cl amai kichu bam dekhia dei sei bam kre ami ajj puro sustho uni khub valo akjon therapeutic tarsathe khub valo manush',
   },
 ];
 
