@@ -119,7 +119,7 @@ const App = () => {
       {/* Header Section */}
       <header className="py-12 bg-green-600 text-white rounded-b-3xl">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-2">Physiotherapy Clinics</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-2">Physiotherapy by Dr. Dibyendu</h1>
           <p className="text-xl sm:text-2xl font-light">Your path to recovery and well-being.</p>
         </div>
       </header>
@@ -160,7 +160,7 @@ const App = () => {
 
       {/* Footer Section */}
       <footer className="bg-gray-800 text-white py-8 rounded-t-3xl text-center">
-        <p className="text-sm">&copy; 2024 Physiotherapy Clinics. All rights reserved.</p>
+        <p className="text-sm">&copy; 2025 Made with no clue @Rigdu . All rights reserved.</p>
       </footer>
     </div>
   );
