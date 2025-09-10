@@ -17,13 +17,13 @@ const clinics = [
     photos: [
       'https://placehold.co/600x400/29B961/white?text=Physiotherapy+session',
       'https://placehold.co/600x400/29B961/white?text=Rehabilitation+exercises',
-      'https://placehold.co/600x400/29B961/white?text=Modern+clinic+interior',
+      'https://placehold.co/600x400/29B961/white?text=House+call+visits',
     ],
   },
   {
     name: 'Arogya Physiotherapy Clinic',
     banglaName: 'আরোগ্য ফিজিওথেরাপি ক্লিনিক',
-    address: 'Thakurpukur - Birbhat - Bakrahat - Raipur Rd, Bakrahat, West Bengal 743377, India',
+    address: 'Pundooah Station Rd, Pandua, West Bengal 712149',
     openingHours: 'Monday - Saturday: 4:00 PM - 8:00 PM',
     phone: '+917797743478',
     mapLink: 'https://share.google/Ing1UEaInxUwdE1iQ',
@@ -31,7 +31,7 @@ const clinics = [
     photos: [
       'https://placehold.co/600x400/29B961/white?text=Physiotherapy+session',
       'https://placehold.co/600x400/29B961/white?text=Rehabilitation+exercises',
-      'https://placehold.co/600x400/29B961/white?text=Modern+clinic+interior',
+      'https://placehold.co/600x400/29B961/white?text=House+call+visit',
     ],
   },
 ];
